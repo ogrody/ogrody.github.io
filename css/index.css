@@ -10,7 +10,7 @@ font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 
 
 }
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h6{
 font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 text-align:center;
 
@@ -176,7 +176,7 @@ color:#0085a1}
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #065620; /*  ----zieleñ dzia³kowa:)--- */
+    background: #065620; /*  ----zieleÃ± dziaÂ³kowa:)--- */
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
