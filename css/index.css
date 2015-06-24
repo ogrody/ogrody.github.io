@@ -50,6 +50,7 @@ background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:
 }
 
 .intro-header .site-heading{
+background-color:rgba(255,255,255,0.3);
 padding:70px 0 50px;
 color:#065620}
 
