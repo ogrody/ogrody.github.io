@@ -175,6 +175,7 @@ color:#0085a1}
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+	padding-bottom:200px;
 }
 
 #wrapper.toggled {
@@ -288,6 +289,7 @@ text-indent: -10px;
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
+	
     }
 
     #wrapper.toggled {
@@ -312,3 +314,28 @@ text-indent: -10px;
         margin-right: 0;
     }
 }
+
+
+/* ------footer------------ */
+/* .footer {
+background-color:rgba(0,0,0,0.6);
+margin-bottom:50px;
+padding-bottom:30px;
+}
+
+
+
+.pager{margin:20px 0 0}
+.pager li>a,
+.pager li>span{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:14px;font-weight:800;letter-spacing:1px;padding:15px 25px;background-color:#fff;border-radius:0}
+.pager li>a:hover,
+.pager li>a:focus{color:#fff;background-color:#0085a1;border:1px solid #0085a1}
+.pager .disabled>a,
+.pager .disabled>a:hover,
+.pager .disabled>a:focus,
+.pager .disabled>span{color:gray;background-color:#404040;cursor:not-allowed}
+
+::-moz-selection{color:#fff;text-shadow:none;background:#0085a1}::selection{color:#fff;text-shadow:none;background:#0085a1}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}body{webkit-tap-highlight-color:#0085a1}
+ */
+
+
