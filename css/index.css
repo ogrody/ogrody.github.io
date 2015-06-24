@@ -63,7 +63,8 @@ background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:
 .intro-header .site-heading{
 background-color:rgba(255,255,255,0.3);
 padding:70px 0 50px;
-color:#065620}
+color:white;
+/* color:#065620 */}
 
 @media only screen and (min-width:768px){
 .intro-header .site-heading{
@@ -77,8 +78,9 @@ text-align:center
 margin-top:0;
 font-weight:700;
 font-size:40px;
-/* color:#065620; */
-color:rgba(6, 86, 32, 0.9);
+color:#065620;
+
+
 /* font-family: 'Sarala', sans-serif; */
 font-family: 'Montserrat', sans-serif;
 text-shadow: 3px 3px rgba(255,255,255,0.2);
@@ -254,7 +256,9 @@ color:#0085a1}
 
 
 .sidebar-sub li {
-text-indent: -10px;
+/* text-indent: -10px; */
+margin-left:-50px;
+
 }
 .sidebar-sub li a {
     display: block;
