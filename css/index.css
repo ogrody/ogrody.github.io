@@ -323,9 +323,9 @@ text-indent: -10px;
 }
 
 
-/* ------footer------------ */
-/* .footer {
-background-color:rgba(0,0,0,0.6);
+------footer------------
+.footer {
+background-color:green;
 margin-bottom:50px;
 padding-bottom:30px;
 }
@@ -342,7 +342,7 @@ padding-bottom:30px;
 .pager .disabled>a:focus,
 .pager .disabled>span{color:gray;background-color:#404040;cursor:not-allowed}
 
-::-moz-selection{color:#fff;text-shadow:none;background:#0085a1}::selection{color:#fff;text-shadow:none;background:#0085a1}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}body{webkit-tap-highlight-color:#0085a1}
+/* ::-moz-selection{color:#fff;text-shadow:none;background:#0085a1}::selection{color:#fff;text-shadow:none;background:#0085a1}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}body{webkit-tap-highlight-color:#0085a1}
  */
 
 
