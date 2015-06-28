@@ -332,6 +332,20 @@ margin-left:-50px;
 }
 
 
+/* --------------------kontent strony głównej----------------- */
+
+.zielonakreska {
+
+margin:15px auto;
+border-width:2px;
+border-color:#065620;
+}
+
+
+.kolko{
+padding:100 0;
+}
+
 /* ------footer------------ */
 .footer {
 position:relative;
