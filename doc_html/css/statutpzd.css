@@ -191,6 +191,11 @@ p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxS
 	margin-bottom:.0001pt;
 	/* font-size:10.0pt; */
 	font-family:"Times New Roman","serif";}
+/* 	
+p span {
+display:inline-block;
+width:16px;
+} */
 span.Nagwek7Znak
 	{mso-style-name:"Nag³ówek 7 Znak";
 	mso-style-link:"Nag³ówek 7";

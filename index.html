@@ -132,7 +132,7 @@
                     <a href="#">Dział prawny</a>
 						<ul class="sidebar-sub" >
 							<li> <a href="doc_html/statutpzd.html">Statut PZD</a></li>
-							<li><a href="#">Ustawa o ROD</a></li>
+							<li><a href="doc_html/ustawarod_intro.html">Ustawa o ROD</a></li>
 							<li><a href="#">Regulamin ROD</a></li>
 							<li><a href="#">Uchwały</a></li>
 							<li><a href="#">Stanowiska</a></li>
@@ -159,56 +159,97 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
+				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+		
+			
                 <div class="row">
-                    <div class="col-lg-12 wstep">
-                        <h1>Witamy na stronie Okręgowego Zarządu Polskiego Związku Działkowców w Elblągu!!!</h1>
+                    <div class="col-md-12 wstep">
+                        <h1>Witamy na stronie Okręgowego Zarządu Polskiego Związku Działkowców w Elblągu!</h1>
+						<p></p>
 						<p class="quoter">&#34Pamiętajcie o ogrodach. Przecież stamtąd przyszliście<br>
 						W żar epoki użyczą wam chłodu tylko drzewa, tylko liście&#34<br></p>
 						
-						<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+						
                     </div>
+			
 					
-						<hr class="zielonakreska">
+				
 				<!-- ---kółka--- -->
 				
-				<hr class="zielonakreska">
 			
-				<div class="row">
+			
+				<div class="row kolka">
 					<div class="col-sm-4">
-						 <a href="#"><img class="kolko img-circle img-responsive img-center" src="http://placehold.it/400x400" alt=""></a>
+						 <a href="#"><img class="kolko img-circle img-responsive img-center" src="img/natura.jpg" alt=""></a>
+						 <h2>Natura</h2>
 						
 					</div>
 					<div class="col-sm-4">
-						<a href="#"><img class="kolko img-circle img-responsive img-center" src="http://placehold.it/400x400" alt=""></a>
+						<a href="#"><img class="kolko img-circle img-responsive img-center" src="img/rekreacja.jpg" alt=""></a>
+						<h2>Rekreacja</h2>
 					   
 					</div>
 					<div class="col-sm-4">
-						<a href="#"><img class="kolko img-circle img-responsive img-center" src="http://placehold.it/400x400" alt=""></a>
+						<a href="#"><img class="kolko img-circle img-responsive img-center" src="img/zdrowie.jpg" alt=""></a>
+						<h2>Zdrowie</h2>
 						
 					</div>
 				</div>
-				<hr class="zielonakreska">
+				
 				
                 </div>
-				<div class="row">
-					<div class="col-lg-4 Obrazek">
-                        
-                        
-                    </div>
-                    <div class="col-lg-12 Kontakt">
-                        <h2>Nasz adres :</h2>
-						
-                        <p> OKRĘGOWY ZARZĄD PZD <br>UL. KOŚCIUSZKI 106 <br>82-300 ELBLĄG<br>TEL. 55 233-81-06<br>ADRES EMAIL: elblag@pzd.pl<br></p>
-						<p>Ośrodek Finansowo-Księgowy<br>ul. Kościuszki 106<br>82-300 Elbląg<br>Tel: 55-230-77-32<br>kom. 509 424 416<br></p>
-						<p>czynny od 8.00 - 16.00</P>
-                    </div>
-                </div>
+				
             </div>
+			
+			
+			
+				
+			<!---------kontakt i mapa----------->
+			<div class="containter kontakt">
+				<div class="kontaktkol">
+				
+					<div class="row">
+						<div class="col-md-12">
+							<h2>Nasz adres:</h2>
+						</div>
+					</div>
+			
+					<div class="row">
+						<div class="col-md-offset-1 col-md-5 adres">
+							
+							
+							<h3>Okręgowy Zarząd Polskiego Związku Działkowców w Elblągu</h2>
+							<p>ul. Kościuszki 106 <br>82-300 Elbląg<br>tel. 55 233-81-06<br>e-mail: elblag@pzd.pl<br></p>
+								<p>czynny od 8.00 - 16.00</P>
+							<h3>Ośrodek Finansowo-Księgowy</h3>
+							<p>ul. Kościuszki 106<br>82-300 Elbląg<br>tel: 55-230-77-32<br>tel.kom. 509 424 416<br></p>
+						
+							
+						</div>
+						<div class="col-md-6">
+							<div id="map-canvas"></div>
+						   
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="map-canvas"></div>
+			
         </div>
+		
         <!-- /#page-content-wrapper -->
 
+		
+		
+		
     </div>
     <!-- /#wrapper -->
+
+
+	
 	
 	<!-- ------------footer-------------- -->
 	
@@ -254,6 +295,31 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+	
+	<!-- ----google map---- -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+		var myLatlng = new google.maps.LatLng(54.170413, 19.4246988);
+
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: myLatlng,
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+		var marker = new google.maps.Marker({
+		position: myLatlng,
+		title:"Okręgowy Zarząd"
+		});
+		marker.setMap(map);
+
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+	
 	
 	<!-- Start of StatCounter Code for Default Guide -->
 	<script type="text/javascript">
