@@ -1,0 +1,184 @@
+body {
+
+font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+/* body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ 
+
+
+.thumb {
+    margin-bottom: 30px;
+}
+/* 
+footer {
+    margin: 50px 0;
+} */
+/* 
+-----hm---- */
+p {
+font-size:14px;
+text-align:left;
+/* margin: 0 5%; */
+}
+
+h2 {font-size:20px;
+} 
+
+a {
+font-size:16px;
+/* color:#065620; */
+text-decoration:underline;
+}
+
+a:hoover {
+color:black;
+}
+
+@media only screen and (min-width:768px){
+p {font-size:18px;
+
+}
+h2 {font-size:30px;}
+
+a {font-size:20px;}
+}
+
+/* -------------------------------header----------------------- */
+/* i NAPIS NA OBRAZKU*/
+
+
+.intro-header{
+background-image:url("../img/stokrotki1.jpg");
+height: 400px;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;
+
+}
+
+.intro-header .site-heading{
+
+padding:70px 0 50px;
+color:white;
+/* color:#065620 */}
+
+@media only screen and (min-width:768px){
+.intro-header .site-heading{
+padding:150px 0}
+}
+
+.intro-header .site-heading {
+text-align:center
+}
+.intro-header .site-heading h1{
+margin-top:0;
+font-weight:700;
+font-size:40px;
+color:#065620;
+
+font-family: 'Montserrat', sans-serif;
+text-shadow: 3px 3px rgba(255,255,255,0.2);
+line-height: 75px;
+
+}
+
+@media only screen and (min-width:768px){
+.intro-header .site-heading h1{
+font-size:70px;}
+}
+
+
+.intro-header .site-heading .subheading {
+color:white;
+display:block;
+/* font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+font-family: 'Droid Serif', serif;
+font-size: 30px;
+font-style: italic;
+line-height: 40px;
+
+margin:10px 0 0}
+
+
+
+
+/* ---------------------------menu-------------------------- */
+.navbar-default .navbar-nav > li > a  {
+color:white;
+}
+a:hover,a:focus{
+color:grey}
+
+
+
+.navbar-custom{
+background-color: #065620;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+z-index:3;
+font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+margin-bottom:100px;}
+
+.navbar-custom .navbar-brand{
+font-weight:800}
+
+.navbar-custom .nav li a{
+text-transform:uppercase;
+font-size:12px;
+font-weight:800;
+letter-spacing:1px;
+text-decoration:none;
+}
+
+@media only screen and (min-width:768px){
+.navbar-custom{
+/* background:0 0; */
+border-bottom:1px solid transparent;}
+
+.navbar-custom .navbar-brand{
+/* color:#fff; */
+padding:20px}
+
+.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{
+color:rgba(255,255,255,.8)}
+.navbar-custom .nav li a{
+/* color:#fff; */
+padding:20px}
+.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{
+color:rgba(255,255,255,.8)}}
+
+@media only screen and (min-width:1170px){
+
+.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
+
+.navbar-custom.is-fixed{
+position:fixed;
+top:-61px;
+background-color:#065620;
+border-bottom:1px solid transparent;-webkit-transition:-webkit-transform .3s;-moz-transition:-moz-transform .3s;transition:transform .3s}
+
+.navbar-custom.is-fixed .navbar-brand{
+color:#d2d2d2}
+
+.navbar-custom.is-fixed .navbar-brand:hover,.navbar-custom.is-fixed .navbar-brand:focus{
+color:#0085a1}
+
+.navbar-custom.is-fixed .nav li a{
+color:#d2d2d2}
+.navbar-custom.is-fixed .nav li a:hover,.navbar-custom.is-fixed .nav li a:focus{
+color:#0085a1}
+
+.navbar-custom.is-visible{-webkit-transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);-ms-transform:translate3d(0,100%,0);-o-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}
+
+/* --------intro content------- */
+
+.site-intro {
+padding-top:30px;
+padding-bottom:20px;
+}
+
+
+
+
